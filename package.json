@@ -1,0 +1,22 @@
+{
+  "name": "project17-backend",
+  "version": "1.0.0",
+  "description": "project17",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NivinF/project17-backend.git"
+  },
+  "author": "Dani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NivinF/project17-backend/issues"
+  },
+  "homepage": "https://github.com/NivinF/project17-backend#readme",
+  "dependencies": {
+    "mysql": "^2.15.0"
+  }
+}
