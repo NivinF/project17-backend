@@ -1,22 +1,20 @@
 {
-  "name": "project17-backend",
-  "version": "1.0.0",
-  "description": "project17",
-  "main": "index.js",
+  "name": "rkdemo",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NivinF/project17-backend.git"
-  },
-  "author": "Dani",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NivinF/project17-backend/issues"
-  },
-  "homepage": "https://github.com/NivinF/project17-backend#readme",
   "dependencies": {
-    "mysql": "^2.15.0"
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.1",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "file-system": "^2.2.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "mysql": "^2.11.1",
+    "serve-favicon": "~2.3.0"
   }
 }
